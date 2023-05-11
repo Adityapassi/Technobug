@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --main-500:#2b7ada;
+    --neutral-900:#232323;
+    --white:#fff;
+}
+
+
+.btn1,
+.btn{
+    padding: 15px 30px;
+    color: var(--white);
+    background-color: var(--main-500);
+    border-radius: 5px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+
+.btn1:hover,
+.btn:hover{
+    background-color: #00247E;
+}
+
+
+/* Common Css */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flow-root;
+}
+
+.d-flex{
+    display: flex;
+}
+
+/* Info Bar Start */
+#info_bar{
+    padding: 10px 0;
+    background-color: var(--main-500);
+}
+
+#info_bar .d-flex{
+    justify-content: space-between;
+}
+
+#info_bar ul{
+    display: flex;
+    column-gap: 10px;
+}
+
+#info_bar ul.info li i{
+    margin-right: 8px;
+    color: var(--white);
+    font-size: 15pxpx;
+}
+
+#info_bar ul.info li a{
+    font-size: 15px;
+    color: var(--white);
+}
+
+.social_icons i{
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.social_icons a{
+    padding: 5px 0;
+    color: var(--white);
+}
+
+/* Header */
+header{
+    padding: 20px 0;
+}
+
+header .d-flex{
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.navigation li a{
+    font-weight: 600;
+    color: var(--neutral-900);
+}
+
+.navigation li a:hover{
+    color: var(--main-500);
+}
+
+.navigation li a.btn{
+    color: var(--white);
+}
+
+/* Banner */
+#banner{
+    background-image: url(../images/slider-1.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 250px 0 300px;
+    color: var(--white);
+}
+
+#banner h5{
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+#banner h1{
+    font-size: 65px;
+    font-weight: 800;
+    margin: 25px 0;
+}
+
+#banner .btn1{
+    font-size: 18px;
+}
+
+#banner .btn1 + .btn1{
+    margin-left: 30px;
+}
+
+#banner .btn1 i{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* Service cards */
+.service_cards{
+    padding-bottom: 50px;
+}
+.service_card{
+    width:23%;
+    background-color: var(--white);
+    padding: 30px 25px;
+    text-align: center;
+    margin-top: -100px;
+    border-radius: 10px 0 10px 0;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.10);
+}
+
+.service_card + .service_card{
+    margin-left: 20px;
+}
+
+.service_card i{
+    padding: 30px;
+    font-size: 30px;
+    border-radius: 50%;
+    color: var(--white);
+    background-color: var(--main-500);
+}
+
+
+
