@@ -61,7 +61,7 @@ ul {
 }
 
 .container {
-    width: 95%;
+    width: 90%;
     max-width: 1170px;
     margin: 0 auto;
     display: flow-root;
@@ -298,9 +298,11 @@ header.change-bg .nav-link.btn {
     margin: 25px 0;
 }
 
-#banner .btn1+.btn1 {
-    margin-left: 30px;
+.btn-container{
+    gap:20px;
 }
+
+
 
 #banner .btn1 i {
     margin-left: 10px;
@@ -336,7 +338,9 @@ header.change-bg .nav-link.btn {
 }
 
 .service_card i {
-    padding: 30px;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
     font-size: 30px;
     border-radius: 50%;
     color: var(--white);
@@ -1368,16 +1372,34 @@ footer h3,
         padding: 50px 0;
     }
 
+    .btn,
+    .btn1{
+        padding: 10px 20px;
+    }
+
     .header_main-title {
         font-size: 26px;
     }
 
+    #banner {
+        padding: 150px 0 200px;
+    }
+
     #banner h1 {
-        font-size: 30px;
+        font-size: 27px;
+    }
+
+    #banner h5 {
+        font-size: 16px;
+        letter-spacing: 2px;
     }
 
     .service_card {
         flex: 0 0 100%;
+    }
+
+    .about .header_main-title {
+        text-align: center;
     }
 
     .about-img-section+.about-content {
