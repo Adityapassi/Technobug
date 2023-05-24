@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Home</title>
 </head>
@@ -36,19 +39,22 @@
     <!-- Info Bar : End -->
     <!-- Header : Start -->
     <header id="header">
-        <div class="container d-flex">
-            <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
-            <a href="#" class="logo-2"><img src="images/logo-white.png" alt=""></a>
-            <ul class="navigation">
-                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Company</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">IT solution</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Elements</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-                <li class="nav-item"><a href="#" class="nav-link btn">Get a Quote</a></li>
-            </ul>
+        <div class="container">
+            <div class="nav-bar d-flex">
+                <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+                <a href="#" class="logo-2"><img src="images/logo-white.png" alt=""></a>
+                <ul class="navigation">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Company</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Service</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">IT solution</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Elements</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link btn">Get a Quote</a></li>
+                </ul>
+                <button class="hamburger-menu">&#9776;</button>
+            </div>
         </div>
     </header>
     <!-- Header : End -->
@@ -65,22 +71,24 @@
     <!-- Banner : End -->
     <!-- Service Cards : Start -->
     <section class="service_cards">
-        <div class="container d-flex">
-            <div class="service_card">
-                <i class="fa-solid fa-globe"></i>
-                <h2>Provide All Kind Of IT Services</h2>
-            </div>
-            <div class="service_card">
-                <i class="fa-solid fa-globe"></i>
-                <h2>Provide All Kind Of IT Services</h2>
-            </div>
-            <div class="service_card">
-                <i class="fa-solid fa-globe"></i>
-                <h2>Provide All Kind Of IT Services</h2>
-            </div>
-            <div class="service_card">
-                <i class="fa-solid fa-globe"></i>
-                <h2>Provide All Kind Of IT Services</h2>
+        <div class="container">
+            <div class="service-box-container d-flex">
+                <div class="service_card">
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Provide All Kind Of IT Services</h2>
+                </div>
+                <div class="service_card">
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Provide All Kind Of IT Services</h2>
+                </div>
+                <div class="service_card">
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Provide All Kind Of IT Services</h2>
+                </div>
+                <div class="service_card">
+                    <i class="fa-solid fa-globe"></i>
+                    <h2>Provide All Kind Of IT Services</h2>
+                </div>
             </div>
         </div>
     </section>
@@ -178,7 +186,7 @@
             <div class="our-team-header d-flex">
                 <div class="header_section--left">
                     <strong class="header_side-title">30 YEARS OF EXPERIENCE</strong>
-                    <h2 class="header_main-title">Our Awesome Creative<br>Team Member</h2>
+                    <h2 class="header_main-title normal-font">Our Awesome Creative<br>Team Member</h2>
 
                     <div class="line"></div>
                 </div>
@@ -260,7 +268,7 @@
                 <div class="line-center"></div>
             </div>
         </div>
-        <div class="owl d-flex">
+        <div class="owl owl-carousel d-flex">
             <div class="item">
                 <div class="owl-items">
                     <img src="images/2.jpg" alt="">
@@ -377,16 +385,18 @@
     <!--Features Case: End -->
     <!--Request: Start -->
     <section class="request pad2">
-        <div class="container d-flex">
-            <div class="request-content">
-                <div class="header_section--left">
-                    <strong class="header_side-title white">+880 013 143 206</strong>
-                    <h2 class="header_main-title white">To make requests for the<br>further information</h2>
+        <div class="container">
+            <div class="request-data d-flex">
+                <div class="request-content">
+                    <div class="header_section--left">
+                        <strong class="header_side-title white">+880 013 143 206</strong>
+                        <h2 class="header_main-title white">To make requests for the<br>further information</h2>
+                    </div>
+                    <a href="" class="btn1">Join With Now <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
-                <a href="" class="btn1">Join With Now <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-            <div class="play-btn d-flex">
-                <div class="play"> <i class="fa-solid fa-play"></i></div>
+                <div class="play-btn d-flex">
+                    <div class="play"> <i class="fa-solid fa-play"></i></div>
+                </div>
             </div>
         </div>
 
@@ -420,50 +430,112 @@
                 <h2 class="header_main-title">What Says<br>Our Happy Clients</h2>
                 <div class="line-center"></div>
             </div>
-            <div class="clients-testimonial d-flex">
-                <div class="client">
-                    <p class="client-message">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum, eum , culpa
-                        voluptate aliquam excepturi sequi voluptas eius dolore labore et est molestias?
-                    </p>
-                    <div class="client-details d-flex">
-                        <div class="client-img">
-                            <img src="images/testi1.jpg" alt="">
-                        </div>
-                        <div class="client-name">
-                            <h4 class="name">Jamal Khan</h4>
-                            <h5 class="designation">Founder</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="client">
-                    <p class="client-message">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum, eum , culpa
-                        voluptate aliquam excepturi sequi voluptas eius dolore labore et est molestias?
-                    </p>
-                    <div class="client-details d-flex">
-                        <div class="client-img">
-                            <img src="images/testi1.jpg" alt="">
-                        </div>
-                        <div class="client-name">
-                            <h4 class="name">Jamal Khan</h4>
-                            <h5 class="designation">Founder</h5>
+            <div class="clients-testimonial owl-carousel  d-flex">
+                <div class="item">
+                    <div class="client">
+                        <p class="client-message">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum, eum ,
+                            culpa
+                            voluptate aliquam excepturi sequi voluptas eius dolore labore et est molestias?
+                        </p>
+                        <div class="client-details  d-flex">
+                            <div class="client-img">
+                                <img src="images/testi1.jpg" alt="">
+                            </div>
+                            <div class="client-name">
+                                <h4 class="name">Jamal Khan</h4>
+                                <h5 class="designation">Founder</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="client">
-                    <p class="client-message">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum, eum , culpa
-                        voluptate aliquam excepturi sequi voluptas eius dolore labore et est molestias?
-                    </p>
-                    <div class="client-details d-flex">
-                        <div class="client-img">
-                            <img src="images/testi1.jpg" alt="">
+                <div class="item">
+                    <div class="client">
+                        <p class="client-message">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum, eum ,
+                            culpa
+                            voluptate aliquam excepturi sequi voluptas eius dolore labore et est molestias?
+                        </p>
+                        <div class="client-details d-flex">
+                            <div class="client-img">
+                                <img src="images/testi1.jpg" alt="">
+                            </div>
+                            <div class="client-name">
+                                <h4 class="name">Jamal Khan</h4>
+                                <h5 class="designation">Founder</h5>
+                            </div>
                         </div>
-                        <div class="client-name">
-                            <h4 class="name">Jamal Khan</h4>
-                            <h5 class="designation">Founder</h5>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="client">
+                        <p class="client-message">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum, eum ,
+                            culpa
+                            voluptate aliquam excepturi sequi voluptas eius dolore labore et est molestias?
+                        </p>
+                        <div class="client-details d-flex">
+                            <div class="client-img">
+                                <img src="images/testi1.jpg" alt="">
+                            </div>
+                            <div class="client-name">
+                                <h4 class="name">Jamal Khan</h4>
+                                <h5 class="designation">Founder</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="client">
+                        <p class="client-message">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum, eum ,
+                            culpa
+                            voluptate aliquam excepturi sequi voluptas eius dolore labore et est molestias?
+                        </p>
+                        <div class="client-details d-flex">
+                            <div class="client-img">
+                                <img src="images/testi1.jpg" alt="">
+                            </div>
+                            <div class="client-name">
+                                <h4 class="name">Jamal Khan</h4>
+                                <h5 class="designation">Founder</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="client">
+                        <p class="client-message">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum, eum ,
+                            culpa
+                            voluptate aliquam excepturi sequi voluptas eius dolore labore et est molestias?
+                        </p>
+                        <div class="client-details d-flex">
+                            <div class="client-img">
+                                <img src="images/testi1.jpg" alt="">
+                            </div>
+                            <div class="client-name">
+                                <h4 class="name">Jamal Khan</h4>
+                                <h5 class="designation">Founder</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="client">
+                        <p class="client-message">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium voluptatum, eum ,
+                            culpa
+                            voluptate aliquam excepturi sequi voluptas eius dolore labore et est molestias?
+                        </p>
+                        <div class="client-details d-flex">
+                            <div class="client-img">
+                                <img src="images/testi1.jpg" alt="">
+                            </div>
+                            <div class="client-name">
+                                <h4 class="name">Jamal Khan</h4>
+                                <h5 class="designation">Founder</h5>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -628,6 +700,62 @@
         </div>
 
     </footer>
+
+    <script src="js/jquery-3.7.0.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".owl").owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                responsiveClass: true,
+                nav: false,
+                responsive: {
+                    0:{
+                        items: 1, 
+                        nav: true,  
+                    },
+
+                    655:{
+                        items: 3,
+                        nav: true,
+                    },
+
+                    1000: {
+                        items: 4,
+                        nav: true,
+                    }
+                }
+            });
+
+            $(".clients-testimonial").owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 5000,
+                // responsiveClass: true,
+                nav: false,
+                margin:30,
+                responsive: {
+                    1000: {
+                        items: 3,
+                        nav: true,
+                    },
+                    600:{
+                        items: 2,
+                        nav: true,
+                    },
+
+                    0:{
+                        items: 1, 
+                        nav: true,  
+                    }
+
+                    
+                }
+            })
+        });
+    </script>
 </body>
 
 </html>

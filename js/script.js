@@ -1,12 +1,21 @@
+// For Changing background Color of Menu/Header
 const header = document.querySelector("#header");
 
 const sticky = header.offsetTop;
-console.log(sticky)
 window.addEventListener('scroll', () => {
-    console.log(window.pageYOffset)
-    if (window.pageYOffset >= sticky) {
-      header.classList.add('active');
+    if (window.pageYOffset > sticky) {
+      header.classList.add('change-bg');
     } else {
-      header.classList.remove('active');
+      header.classList.remove('change-bg');
+    }
+    if(window.innerWidth <992){
+      header.classList.remove('change-bg');
     }
 });
+
+// For Responsive Menu
+let menuBtn = document.querySelector(".hamburger-menu")
+menuBtn.addEventListener("click",function(){
+  console.log("clicked")
+    header.classList.toggle("active")
+})
