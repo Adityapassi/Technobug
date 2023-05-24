@@ -417,10 +417,10 @@ header.change-bg .nav-link.btn {
 
 /* Services */
 .services {
-    background: url(../images/services-bg.jpg) no-repeat;
+    background: url("../images/services-bg.jpg") no-repeat;
     background-size: cover;
-    background-position: center;
 }
+
 
 .services .service_cards {
     padding-bottom: 0;
@@ -1415,6 +1415,11 @@ footer h3,
 
     .about-content {
         flex: 0 0 100%;
+    }
+
+    .services {
+        background: url("../images/services-bg.jpg") repeat-y;
+     
     }
 
     .services .service_cards .service_card {
