@@ -18,4 +18,7 @@ let menuBtn = document.querySelector(".hamburger-menu")
 menuBtn.addEventListener("click",function(){
   console.log("clicked")
     header.classList.toggle("active")
+     if(window.innerWidth <992){
+      header.classList.remove('active');
+    }
 })
