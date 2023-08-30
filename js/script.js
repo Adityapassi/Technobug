@@ -21,6 +21,6 @@ menuBtn.addEventListener("click",function(){
      
 })
 
-if(window.innerWidth <992){
+if(window.innerWidth > 992){
       header.classList.remove('active');
     }
